@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fahim.hupproject.FAQActivity">
+    <!--<ImageView-->
+        <!--android:id="@+id/FAQ1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/FAQ_page_1"-->
+        <!--android:layout_alignParentTop="true"/>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/FAQ2"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/FAQ1"-->
+        <!--android:src="@drawable/FAQ_page_2"-->
+        <!--android:baselineAlignBottom="false"-->
+        <!--android:cropToPadding="false" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/FAQ3"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/FAQ2"-->
+        <!--android:src="@drawable/FAQ_page_3"/>-->
+
+    <TextView
+        android:id="@+id/html_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"></TextView>
+
+</RelativeLayout>
+</ScrollView>

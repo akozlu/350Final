@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Welcome"
+        android:paddingTop="50dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtuser"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtuser"
+        android:layout_marginLeft="15dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkbox"
+        android:layout_toRightOf="@+id/checkbox"
+        android:text="@string/terms"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Continue"
+        android:id="@+id/button"
+        android:layout_below="@+id/checkbox"
+        android:layout_alignStart="@+id/checkbox"
+        android:onClick="onButtonClick"/>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/logout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_below="@+id/txtuser"-->
+        <!--android:text="@string/LogoutBtn" />-->
+
+</RelativeLayout>
